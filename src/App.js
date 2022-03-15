@@ -40,6 +40,7 @@ class App extends Component {
 
     return (
       <div className='App'>
+        <h1 className='app-title'> Ooga Booga </h1>
         <SearchBox
           className='monsters-search-box'
           placeholder='search monsters'

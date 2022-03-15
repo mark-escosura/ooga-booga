@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -12,4 +14,12 @@ body {
     rgba(0, 128, 128, 1) 100%
   );
   text-align: center;
+}
+
+.app-title {
+  font-family: 'Slackey', cursive;
+  font-size: 5rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  color: rgb(13, 228, 228);
 }
