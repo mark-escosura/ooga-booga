@@ -2,6 +2,30 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 auto;
-  width: 85vw;
-  grid-gap: 20px;
+  width: 100vw;
+  grid-gap: 5px;
+}
+
+/* Bigger Tablet Device */
+@media screen and (max-width: 1120px) {
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Tablet Device */
+@media screen and (max-width: 1024px) {
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile Device */
+@media screen and (max-width: 750px) {
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
